@@ -1,0 +1,26 @@
+body{
+    background-image: url(fundo.jpeg);
+    background-size:100% 110%;
+    background-repeat: no-repeat;
+    font-family: comic sans ms, cursive, sans-serif;
+    font-family: "comic sans ms", cursive, sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    left: 45%
+}
+
+.cores{
+    text-align: center;
+}
+
+button{
+    background-color: #000000;
+    border: rgb(134, 134, 134) 1px solid;
+    color: rgb(255, 255, 255);
+    padding: 8px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+}

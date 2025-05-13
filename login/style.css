@@ -1,0 +1,64 @@
+body {
+    background-image: url("background.jpg");
+    background-size: 100% 10000%;
+    background-repeat: no-repeat;
+}
+.mlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    columns: 1;
+    position: absolute;
+    background-color: #fff9f9c9;
+    border-radius: 15px;
+    padding: 10px;
+}
+.mlogin input{
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #00000083;
+}
+
+.mlogin button{
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 10px;
+    border-top: #000000;
+    border-right: #000000;
+    border-bottom: #000000;
+    border-left: #000000;
+}
+.mlogin button:hover{
+    background-color: #000000bb;
+    color: #ffffff;
+    border-radius: 10px;
+    border-top: #000000;
+    border-right: #000000;
+    border-bottom: #000000;
+    border-left: #000000;
+    cursor: pointer;
+}
+
+@keyframes rotation{
+    0%{
+        transform: rotate(1deg);
+    }
+    50%{ transform: rotate(-1deg);
+    }
+    100%{
+        transform: rotate(1deg);
+    }
+}
+
+button:hover{
+    animation: rotation 1s ease-in-out infinite;
+}
